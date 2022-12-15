@@ -4,6 +4,8 @@ This script cleans up all the garbage fusion360's auto-updater leaves behind in 
 
 It's not written by me (tho I've tweaked it a little) - it's originally by user [stephen.greensides on the fusion 360 forums](https://forums.autodesk.com/t5/fusion-360-support/reclaim-fusion-360-disk-space/td-p/9888870).
 
+This deletes older versions, trims the log file, and removes non-english languages. If you use 360 in a non-english language, you'll definitely want to remove the `deleteNonEnglish` bit from this script.
+
 To use it:
 
 1. download or clone this repo.
